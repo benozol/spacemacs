@@ -12,6 +12,7 @@
  - [[#keyboard-layouts][Keyboard layouts]]
    - [[#bepo][bepo]]
    - [[#dvorak][dvorak]]
+   - [[#neo][neo]]
  - [[#package-configurations][Package Configurations]]
  - [[#keybindings][Keybindings]]
  - [[#sources][Sources]]
@@ -139,7 +140,6 @@ defaults are changed:
 Note: One difference exists with the wiki version: the ~w~ is *not* remapped to
 ~C-w~ to avoid having to change its meaning in other modes. Spacemacs provides
 already a ~SPC w~ key binding for working with windows.
-
 ** dvorak
 =dvorak= is a keyboard layout optimized for the English language. [[http://www.kaufmann.no/roland/dvorak/][dvorak
 programmer]] is an optimized keyboard layout focused in programming and it's a
@@ -148,6 +148,8 @@ will remap keybindings for the =dvorak-programmer= variant.
 
 [[file:img/dvorak-keymap.png]]
 
+** neo
+TODO
 * Package Configurations
 The available configurations are:
 

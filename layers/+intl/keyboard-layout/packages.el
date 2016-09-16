@@ -43,7 +43,9 @@
     :bepo
     (setq aw-keys '(?a ?u ?i ?e ?t ?s ?r ?n))
     :dvorak
-    (setq aw-keys '(?a ?o ?e ?u ?h ?t ?n ?s))))
+    (setq aw-keys '(?a ?o ?e ?u ?h ?t ?n ?s))
+    :neo
+    (setq aw-keys '(?u ?i ?e ?e ?s ?n ?r ?t)))
 
 (defun keyboard-layout/pre-init-avy ()
   (kl|config avy
@@ -54,7 +56,9 @@
     :bepo
     (setq-default avy-keys '(?a ?u ?i ?e ?t ?s ?r ?n))
     :dvorak
-    (setq-default avy-keys '(?a ?o ?e ?u ?h ?t ?n ?s))))
+    (setq-default avy-keys '(?a ?o ?e ?u ?h ?t ?n ?s))
+    :neo
+    (setq-default avy-keys '(?u ?i ?a ?e ?s ?n ?r ?t))))
 
 (defun keyboard-layout/pre-init-comint ()
   (kl|config comint-mode
