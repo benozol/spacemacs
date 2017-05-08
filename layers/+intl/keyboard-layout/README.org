@@ -13,6 +13,7 @@
    - [[#bepo][bepo]]
    - [[#dvorak][dvorak]]
    - [[#colemak][colemak]]
+   - [[#neo][neo]]
  - [[#package-configurations][Package Configurations]]
  - [[#keybindings][Keybindings]]
  - [[#sources][Sources]]
@@ -156,6 +157,12 @@ found at the [[https://colemak.com/][Colemak website]].
 
 [[file:img/colemak-layout.png]]
 
+** neo
+=neo= is a ergonomic keyboard, which is optimized for German. More information can
+be found on the [[https://www.neo-layout.org/][website]].
+
+The Neo layout has six layers, here is only the first:
+[[file:img/neo-layout.png]]
 * Package Configurations
 The available configurations are:
 
